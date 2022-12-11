@@ -1,0 +1,63 @@
+body{
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background: url("./../Assets/img/CITY-NUVEM.jpg");
+    width: 1366px;
+    height: 657px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#box{
+    display:flex;
+    align-items: center;
+    flex-direction: column;  
+    background: rgba(0, 0, 0, 0.842);
+    width: 370px;
+    height: 430px;
+    border-radius: 10px;
+}
+.n2{
+    border-radius: 5px;
+    border:none;
+    margin: 5px;
+    width: 300px;
+    height: 50px;
+    background:white;
+    margin: 20px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+.n1{
+    border-radius: 5px;
+    border:none;
+    margin: 5px;
+    width: 265px;
+    height: 30px;
+    margin: 0px 0px 0px 15px;
+    outline: none;
+}
+#butao{
+    background: rgb(30, 96, 194);
+    border-radius: 5px;
+    border:none;
+    margin: 5px;
+    width: 300px;
+    height: 53px;
+    margin: 30px 0px 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#butao:hover{
+    background: rgb(20, 76, 160);
+}
+#logo{
+    width: 150px;
+    height: 100px;
+    margin: 30px 0px 0px 0px;
+}
